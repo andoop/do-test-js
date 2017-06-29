@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>DoTest</title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div id="div_body">
+    <div id="div_cover_title">
+        <img id="img_back" src="images/back.png"/>
+       <div id="div_detail_tile">
+           <p id="p_detail_title">日志详情</p>
+       </div>
+    </div>
+    <div id="div_log_detail_cover">
+        @@include('include/log_console.html')
+    </div>
+
+</div>
+<div id="div_body_content">
+    <div class="title_bar" align="center-vertical">
+        <div class="div_title_bar_session01">
+            <div class="div_logo">
+                <!--icon-->
+                <img class="icon" src="images/icon.png">
+                <!--web_name-->
+                <p class="p_web_name">DoTest</p>
+            </div>
+            <!--菜单-->
+            <div class="div_menu">
+                <ul class="ul_menu">
+                    <li><a class="selected">最新日志</a></li>
+                    <li><a class="unselected">历史日志</a></li>
+                    <li><a class="unselected">性能指标</a></li>
+                </ul>
+
+                <div class="div_under_line">
+                    <div></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--设备和应用信息-->
+        <div class="div_device_and_app">
+            <div class="div_device">
+                <!--phone-->
+                <img class="img_phone" src="images/phone.png">
+                <p class="p_phone_name">honor 6x</p>
+            </div>
+
+            <div class="div_app">
+                <!--phone-->
+                <img class="img_app" src="images/app.png">
+                <p class="p_app_name">应用名称</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="div_content">
+        <div id="div_log_console_tab01">
+            @@include('include/log_console.html')
+        </div>
+
+
+        <div class="div_tab div_tab_log_lis">
+            <ul id="ul_logs_list"></ul>
+        </div>
+        <div class="div_tab div_tab_analysis"></div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="data/meta.js"></script>
+
+</body>
+</html>

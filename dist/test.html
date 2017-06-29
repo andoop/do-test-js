@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html 最简遮罩层</title>
+    <script type="text/javascript">
+        function showDiv(){
+            document.getElementById('popDiv').style.display='block';
+            document.getElementById('bg').style.display='block';
+        }
+        function closeDiv(){
+            document.getElementById('popDiv').style.display='none';
+            document.getElementById('bg').style.display='none';
+        }
+    </script>
+</head>
+<body>
+<h1>dddddddddddddd</h1>
+<div id="popDiv" style="z-index:99;display:none;position:absolute;margin-top: 20%;margin-left: 40%;background-color: #FFF;">html 最简遮罩层<br/>html 最简遮罩层<br/>
+    <a href="javascript:closeDiv()">关闭遮罩层</a></div>
+<div id="bg" style="display:none;background-color: #ccc;width: 100%;position:absolute;height: 100%;opacity: 0.5;z-index: 1;"></div>
+<div style="padding-top: 10%;padding-left:40%;z-index:1;">
+    <input type="Submit" name="" value="打开遮罩层" onclick="javascript:showDiv()" />
+</div>
+<h1>aaaaaaaaaaaaaaaaaa</h1>
+</body>
+</html>

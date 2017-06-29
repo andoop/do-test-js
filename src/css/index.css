@@ -1,0 +1,329 @@
+*{
+ margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 62.5%;
+}
+
+body .title_bar{
+    background-color: #2e6e9e;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+}
+
+.div_title_bar_session01{
+    height: 100%;
+    width: 50%;
+    min-width: 360px;
+    float: left;
+}
+
+.div_logo{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5%;
+    float: left;
+    cursor: pointer;
+}
+
+.p_web_name{
+    line-height: 50px;
+    margin-left: 1%;
+    float: left;
+    color: white;
+    font-size: 1.8em;
+    min-width: 55px;
+}
+
+.div_device_and_app{
+    height: 100%;
+    width: 45%;
+    min-width: 360px;
+    margin-left: 4%;
+    float: left;
+}
+.div_device{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+.div_app{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+.img_phone,.img_app{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    float: left;
+}
+
+.p_phone_name,.p_app_name{
+    line-height: 50px;
+    margin-left:3%;
+    font-size: 1.3em;
+    float: left;
+    color: white;
+}
+
+.div_menu{
+    height: 100%;
+    width: 60%;
+    margin-left: 4%;
+    min-width: 160px;
+    float: left;
+    text-align: center;
+}
+
+.ul_menu{
+    height:90%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+.ul_menu li{
+    height: 100%;
+    display: inline;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ul_menu li a{
+    width: 100%;
+    color: #dddddd;
+    line-height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ul_menu li a:hover{
+    color: white;
+}
+
+
+.ul_menu li .selected{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.div_under_line{
+    height: 3px;
+    width: 33.3%;
+    text-align: center;
+}
+.div_under_line div{
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #eeeeee;
+
+}
+
+.div_content{
+    width: 300%;
+
+    float: left;
+}
+.div_tab{
+    width: 33.33%;
+    height: 1000px;
+    float: left;
+}
+#div_log_console_tab01{
+    width: 33.33%;
+    height: 1000px;
+    float: left;
+    background-color: #2b542c;
+}
+.log_console_div_content{
+    width: 100%;
+    height: 100%;
+    background-color: #2b542c;
+}
+.div_tab_log_lis{
+    background-color: #2b542c;
+
+}
+.div_tab_analysis{
+    background-color: yellow;
+}
+
+.log_console_div_content .head_bar{
+    width: 90%;
+    margin-left:5%;
+    background-color: #eeeeee;
+    min-width: 320px;
+    height: 40px;
+    margin-top: 5px;
+   border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.log_console_div_content .head_bar .div_log_type{
+    height: 100%;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.log_console_div_content .head_bar .div_log_type select{
+    margin-top: 7px;
+    height: 28px;
+}
+.log_console_div_content .head_bar .div_log_search{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.log_console_div_content .head_bar .div_log_search input{
+  margin-top: 7px;
+    height: 28px;
+    width: 100%;
+    border-radius: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.div_log_list{
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    background-color: black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+
+.log_detail_list{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3px;
+
+
+}
+.log_detail_list li{
+    margin-bottom: 10px;
+}
+
+.normal{
+    color: white;
+}
+.verbose{
+    color: white;
+}
+.warn{
+    color: yellow;
+}
+.error{
+    color: red;
+}
+.debug{
+    color: blue;
+}
+
+.p_div_log_list_time{
+
+    margin-left: 5px;
+    margin-top: 3px;
+    color: white;
+}
+
+#ul_logs_list{
+    width: 90%;
+    margin-left:5%;
+    margin-top: 3px;
+    list-style: none;
+
+}
+
+.li_log_list_item{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 60px;
+}
+
+.li_log_list_item p{
+    float: left;
+    line-height: 60px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.li_log_list_item img{
+    margin-top: 20px;
+    margin-left: 1%;
+    width: 20px;
+    height: 20px;
+}
+
+.li_log_list_item img:hover{
+    margin-top: 17px;
+    width: 26px;
+    height: 26px;
+}
+#div_log_detail_cover{
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    display: none;
+    position: absolute;
+}
+
+#div_body{
+    width: 100%;
+    background-color:#2b542c ;
+    position: relative;
+    z-index: 99;
+
+}
+#div_body_content{
+    position: relative;
+   /* display: none;*/
+}
+#div_cover_title{
+    height: 50px;
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+#img_back{
+    width: 28px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+#img_back:hover{
+    width: 30px;
+    height: 30px;
+}
+
+#div_detail_tile{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#p_detail_title{
+ line-height: 50px;
+   color: white;
+    font-size: 2em;
+}
