@@ -1,0 +1,28 @@
+
+#div_add_app{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    text-align: center;
+}
+
+#form_add_app{
+    width: 100%;
+}
+
+#table_add_app{
+    width: 100%;
+}
+
+#table_add_app td{
+    height: 50px;
+    font-size: 1.5em;
+}
+
+
+#table_add_app input{
+    height: 50px;
+   width: 100%;
+    text-align: center;
+}

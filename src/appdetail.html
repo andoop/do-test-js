@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>应用详情</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/appdetail.css"/>
+</head>
+<body>
+<div class="div_body">
+    <div class="div_title_bar">
+        <div class="div_title_logo">
+
+            <img class="img_title_icon" src="images/icon.png">
+            <P class="p_title_text">DoTest</P>
+
+        </div>
+        <div class="div_title_name">
+            <p class="p_title_name">应用详情</p>
+        </div>
+        <div class="div_title_add" style="display: none">
+            <img id="img_title_add" class="img_title_add" src="images/add.png"/>
+        </div>
+    </div>
+
+    <div class="div_content">
+        <p class="p_app_detail_title">应用信息:</p>
+        <hr class="hr_app_detail_title">
+        <div class="div_app_detail">
+            <table border="1" cellspacing="0">
+                <tr>
+                    <td>应用名称</td>
+                    <td id="td_app_name"></td>
+                </tr>
+                <tr>
+                    <td>应用id</td>
+                    <td id="td_app_id"></td>
+                </tr>
+                <tr>
+                    <td>创建时间</td>
+                    <td id="td_app_time"></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="div_app_test_users">
+            <p class="p_app_detail_title">测试用户:</p>
+            <hr class="hr_app_detail_title">
+
+            <div class="div_add_user">
+
+                <input id="input_user_id" type="text" placeholder="用户id"/>
+                <input id="input_user_desc" type="text" placeholder="描述"/>
+                <input id="input_user_add" type="button" value="添加测试用户"/>
+            </div>
+
+            <div class="div_user_list">
+
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td>
+                            用户id
+                        </td>
+                        <td>
+                            描述
+                        </td>
+                        <td>
+                            操作
+                        </td>
+                    </tr>
+
+                    <tbody id="tbody_user_list">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script src="js/network.js"></script>
+<script src="js/appdetail.js"></script>
+
+</body>
+</html>

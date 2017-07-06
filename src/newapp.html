@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>创建应用</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/newapp.css"/>
+</head>
+<body>
+
+<div class="div_body">
+    <div class="div_title_bar">
+        <div class="div_title_logo">
+
+            <img id="img_back" class="img_title_icon" src="images/back.png">
+
+        </div>
+        <div class="div_title_name">
+            <p class="p_title_name">添加应用</p>
+        </div>
+        <div class="div_title_add">
+            <img id="img_ok" class="img_title_add" src="images/ok.png"/>
+        </div>
+    </div>
+</div>
+
+
+<div id="div_add_app">
+
+    <form id="form_add_app">
+        <table id="table_add_app" border="1" cellspacing="0">
+            <tr>
+                <td>应用名称:</td>
+                <td><input id="input_app_name" type="text"/></td>
+            </tr>
+            <tr>
+                <td>应用包名:</td>
+                <td><input id="input_app_pkg" type="text"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script src="js/network.js"></script>
+<script src="js/newapp.js"></script>
+</body>
+</html>

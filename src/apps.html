@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品列表</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/apps.css"/>
+
+</head>
+<body>
+
+<div class="div_body">
+    <div class="div_title_bar">
+        <div class="div_title_logo">
+
+            <img class="img_title_icon" src="images/icon.png">
+            <P class="p_title_text">DoTest</P>
+
+        </div>
+        <div class="div_title_name">
+            <p class="p_title_name">应用列表</p>
+        </div>
+        <div class="div_title_add">
+            <img id="img_title_add" class="img_title_add" src="images/add.png"/>
+        </div>
+    </div>
+
+    <div class="div_content">
+
+        <div id="div_app_list">
+
+            <table id="table_app_list" border="1" cellspacing="0">
+                <tr>
+                    <th>应用名称</th>
+                    <th>应用包名</th>
+                    <th>AppID</th>
+                    <th>创建时间</th>
+                    <th>操作</th>
+                </tr>
+                <tbody id="tbody_app_list">
+                <!--<tr>-->
+                    <!--<td>应用名称</td>-->
+                    <!--<td>应用包名</td>-->
+                    <!--<td>应用说明</td>-->
+                    <!--<td>创建时间</td>-->
+                    <!--<td></td>-->
+
+                <!--</tr>-->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/network.js"></script>
+<script src="js/apps.js"></script>
+</body>
+</html>

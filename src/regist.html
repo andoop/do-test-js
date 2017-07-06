@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+    <title>Flat Login</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport"
+          content="width=device-width,height=device-height,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="css/regist.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+    <div class="flat-form">
+        <ul class="tabs">
+            <li>
+                <a href="#login" class="active">登录</a>
+            </li>
+            <li>
+                <a href="#register">注册</a>
+            </li>
+            <li>
+                <a href="#reset">找回密码</a>
+            </li>
+        </ul>
+        <div id="login" class="form-action show">
+            <h1>登录DoTest</h1>
+            <p>
+               通过邮箱密码进行登录，忘记密码请联系管理员。
+            </p>
+            <form id="form_login" method="get">
+                <ul>
+                    <li>
+                        <input type="text" id="input_login_email" name="developer_email" placeholder="邮箱"/>
+                    </li>
+                    <li>
+                        <input type="password" id="input_login_password" name="developer_password" placeholder="密码"/>
+                    </li>
+                    <li>
+                        <input type="button" value="登录" id="bt_login" class="button"/>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!--/#login.form-action-->
+        <div id="register" class="form-action hide">
+            <h1>注册账号</h1>
+            <p>
+               通过邮箱进行注册，管理员审核后将会通过邮箱联系你
+            </p>
+            <form>
+                <ul>
+                    <li>
+                        <input type="text" id="input_regist_email" placeholder="邮箱"/>
+                    </li>
+                    <li>
+                        <input type="password" id="input_regist_password" placeholder="密码"/>
+                    </li>
+                    <li>
+                        <input type="button" value="注册" id="bt_regist" class="button"/>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!--/#register.form-action-->
+        <div id="reset" class="form-action hide">
+            <h1>密码找回</h1>
+            <p>
+               请告诉我们你的邮箱和工号，我们会及时通知你
+            </p>
+            <form>
+                <ul>
+                    <li>
+                        <input type="text" id="input_reset_email" placeholder="邮箱"/>
+                    </li>
+                    <li>
+                        <input type="text" id="input_reset_name" placeholder="工号"/>
+                    </li>
+                    <li>
+                        <input type="button" value="确认" id="bt_reset" class="button"/>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!--/#register.form-action-->
+    </div>
+</div>
+<script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="js/network.js"></script>
+<script src="js/regist.js"></script>
+<script src="js/regist_action.js"></script>
+</body>
+</html>
+
+

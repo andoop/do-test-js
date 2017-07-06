@@ -1,0 +1,33 @@
+
+.div_content{
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+#div_app_list{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 10px;
+    text-align: center;
+
+}
+
+#table_app_list{
+    width: 100%;
+}
+
+#table_app_list tr,td,th{
+    height: 50px;
+}
+.a_app_list_delete{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.a_app_list_app_name{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}

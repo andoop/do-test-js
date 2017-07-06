@@ -1,0 +1,83 @@
+
+
+.div_content{
+    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+.div_app_detail{
+    width: 100%;
+    text-align: center;
+}
+
+.div_app_detail table{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+
+}
+
+.div_app_detail tr{
+    height: 40px;
+
+}
+.p_app_detail_title{
+    margin-left: 30%;
+    font-size: 1.5em;
+}
+
+.hr_app_detail_title{
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div_app_test_users{
+    width: 100%;
+}
+
+.div_add_user{
+    width: 40%;
+    margin-left: 30%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#input_user_id{
+    float: left;
+}
+
+#input_user_desc{
+    float: left;
+    margin-left: 10px;
+}
+
+#input_user_add{
+    float: left;
+    margin-left: 10px;
+}
+
+.div_user_list{
+    clear: both;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10px;
+
+}
+
+.div_user_list table{
+    width: 100%;
+    text-align: center;
+}
+
+.div_user_list th,tr{
+    height: 40px;
+}
+
+.a_user_list_delete{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
